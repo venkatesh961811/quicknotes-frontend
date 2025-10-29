@@ -4,8 +4,7 @@ import NoteForm from "./components/NoteForm";
 import NoteList from "./components/NoteList";
 import "./App.css";
 
-const API_URL = "https://quicknotes-backend.onrender.com/api/notes";
-
+const API_URL = "https://quicknotes-backend-1-jnxk.onrender.com/api/notes";
 
 function App() {
   const [notes, setNotes] = useState([]);
