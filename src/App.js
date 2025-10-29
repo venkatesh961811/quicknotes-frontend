@@ -4,7 +4,7 @@ import NoteForm from "./components/NoteForm";
 import NoteList from "./components/NoteList";
 import "./App.css";
 
-const API_URL = `${process.env.REACT_APP_API_URL}/notes`;
+const API_URL = "https://quicknotes-backend.onrender.com/api/notes";
 
 
 function App() {
